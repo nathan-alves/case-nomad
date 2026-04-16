@@ -13,7 +13,7 @@ O entregável é um relatório executivo com clareza nos resultados obtidos e me
 
 - [Relatório - Case Pizzaria](Relatório%20-%20Case%20Pizzaria.pdf)
 - Dashboard - Looker: https://datastudio.google.com/reporting/77835a04-3ca0-4987-878d-0346fa3e9455
-- 
+  
 ---
 
 ## Principais resultados
