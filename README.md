@@ -38,8 +38,6 @@ workspace.case_pizzaria/
 ├── pizzas         # Tabela de produtos e preços (fonte 2)
 └── base_final     # Tabela consolidada — saída do ELT, base para consumo
 
-
-
 **Notebook `case_pizzaria`** — job de ELT com 7 etapas:
 
 | Etapa | O que faz |
@@ -51,18 +49,6 @@ workspace.case_pizzaria/
 | 5 | Helpers de formatação |
 | 6 | Export CSV para consumo local |
 | 7 | Persistência da `base_final` no Spark/Delta |
-
----
-
-## Como executar o projeto
-
-Para reproduzir a notebook:
-
-1. Abra o notebook `case_pizzaria.py` em um ambiente Python ou no Databricks.
-2. Execute as células do notebook sequencialmente.
-3. Os resultados serão carregados, e a tabela `base_final` será persistida no catálogo Databricks.
-
----
 
 ## Autor
 
