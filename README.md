@@ -33,10 +33,12 @@ O entregável é um relatório executivo com clareza nos resultados obtidos e me
 
 ### Pipeline de dados (Databricks)
 
+```
 workspace.case_pizzaria/
 ├── pizza_sales    # Tabela de pedidos — contém preço, tamanho e quantidade (fonte 1)
 ├── pizzas         # Dimensão de produtos — nome, categoria e ingredientes (fonte 2)
 └── base_final     # Tabela consolidada — saída do ELT, base para consumo
+```
 
 **Notebook `case_pizzaria.py`** — job de ELT com 7 etapas:
 
