@@ -56,7 +56,7 @@ Para reproduzir a notebook:
 
 1. Abra o notebook `case_pizzaria.py` em um ambiente Python ou no Databricks.
 2. Execute as células do notebook sequencialmente.
-3. Os resultados serão carregados automaticamente.
+3. Os resultados serão carregados, e a tabela base_final será persistida no catálogo Databricks.
 
 # Autor
 Nathan Alves  
