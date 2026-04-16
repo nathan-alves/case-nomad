@@ -20,12 +20,12 @@ O entregável é um relatório executivo com clareza nos resultados obtidos e me
 - **Gargalo:** período da manhã representa menos de 10% da receita com capacidade ociosa
 - **Oportunidades identificadas: +R$ 55,9k/ano**
 
-| Oportunidade              | Potencial     |
-|---------------------------|---------------|
-| Expansão turno manhã      | +R$ 22,5k/ano |
-| Otimização do mix         | +R$ 16,4k/ano |
-| Ticket no fim de semana   | +R$ 11,1k/ano |
-| Upsell tamanho M → L      | +R$  6,0k/ano |
+| Oportunidade            | Potencial     |
+|-------------------------|---------------|
+| Expansão turno manhã    | +R$ 22,5k/ano |
+| Otimização do mix       | +R$ 16,4k/ano |
+| Ticket no fim de semana | +R$ 11,1k/ano |
+| Upsell tamanho M → L    | +R$  6,0k/ano |
 
 ---
 
@@ -37,6 +37,8 @@ workspace.case_pizzaria/
 ├── pizza_sales    # Tabela de pedidos (fonte 1)
 ├── pizzas         # Tabela de produtos e preços (fonte 2)
 └── base_final     # Tabela consolidada — saída do ELT, base para consumo
+
+
 
 **Notebook `case_pizzaria`** — job de ELT com 7 etapas:
 
@@ -50,13 +52,18 @@ workspace.case_pizzaria/
 | 6 | Export CSV para consumo local |
 | 7 | Persistência da `base_final` no Spark/Delta |
 
+---
 
-# Como Executar o Projeto
+## Como executar o projeto
+
 Para reproduzir a notebook:
 
 1. Abra o notebook `case_pizzaria.py` em um ambiente Python ou no Databricks.
 2. Execute as células do notebook sequencialmente.
-3. Os resultados serão carregados, e a tabela base_final será persistida no catálogo Databricks.
+3. Os resultados serão carregados, e a tabela `base_final` será persistida no catálogo Databricks.
 
-# Autor
-Nathan Alves  
+---
+
+## Autor
+
+Nathan Alves
