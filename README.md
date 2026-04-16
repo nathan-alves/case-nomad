@@ -12,7 +12,7 @@ O objetivo foi entender o comportamento de vendas e traduzir os achados em oport
 O entregável é um relatório executivo com clareza nos resultados obtidos e melhorias identificadas, e um dashboard desenvolvido no Looker trazendo maior amplitude e domínio das visões para apresentação.
 
 - [Relatório - Case Pizzaria](Relatório%20-%20Case%20Pizzaria.pdf)
-- Dashboard - Looker:
+- Dashboard Looker: https://datastudio.google.com/reporting/77835a04-3ca0-4987-878d-0346fa3e9455
   
 ---
 
