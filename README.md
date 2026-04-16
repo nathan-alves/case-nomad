@@ -38,7 +38,7 @@ workspace.case_pizzaria/
 ├── pizzas         # Dimensão de produtos — nome, categoria e ingredientes (fonte 2)
 └── base_final     # Tabela consolidada — saída do ELT, base para consumo
 
-**Notebook `case_pizzaria`** — job de ELT com 7 etapas:
+**Notebook `case_pizzaria.py`** — job de ELT com 7 etapas:
 
 | Etapa | O que faz |
 |-------|-----------|
