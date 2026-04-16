@@ -1,4 +1,4 @@
-# Case Analítico — Pizzaria | NOMAD GLOBAL
+# Case Analítico — Pizzaria
 
 Diagnóstico de receita e identificação de oportunidades de crescimento com base nos dados fornecidos.
 
