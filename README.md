@@ -60,6 +60,7 @@ workspace.case_pizzaria/
 └── base_final     # Tabela consolidada — saída do ELT, base para consumo
 ```
 
+
 **`notebook case_pizzaria.py`** — job de ELT com 7 etapas:
 
 | Etapa | O que faz |
